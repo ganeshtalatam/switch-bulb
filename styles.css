@@ -4,11 +4,32 @@
   box-sizing: border-box;
 }
 body {
+  background: #333;
+}
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
-  min-height: 100vh;
+  min-height: 70vh;
+}
+.link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+a {
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  font-size: 3.5rem;
+  transition: 0.5s ease;
+  border: 2px solid white;
+  padding: 10px;
 }
 label {
   position: relative;
