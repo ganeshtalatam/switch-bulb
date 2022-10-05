@@ -84,3 +84,13 @@ label input:checked ~ span ion-icon {
 label input:checked ~ .bulb {
   background: url(images/bulb_on.jpg);
 }
+
+.link-text-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.github-logo {
+  width: 46px;
+  margin: auto 2px;
+}
